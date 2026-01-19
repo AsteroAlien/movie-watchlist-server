@@ -71,16 +71,16 @@ Clone the repository.
 
 Install dependencies:
 
-pnpm install
+- pnpm install
 
 Generate Prisma client and run migrations:
 
-pnpm prisma generate
-pnpm prisma migrate dev
+- pnpm prisma generate
+- pnpm prisma migrate dev
 
 Start the development server:
 
-pnpm dev
+- pnpm dev
 
 ---
 
@@ -88,7 +88,7 @@ pnpm dev
 
 After registering or logging in, include the JWT in the request headers:
 
-Authorization: Bearer <your_jwt_token>
+- Authorization: Bearer <your_jwt_token>
 
 All watchlist routes require authentication.
 
@@ -99,7 +99,7 @@ All watchlist routes require authentication.
 ### Auth
 - POST `/auth/register`
 - POST `/auth/login`
-- POST `/auth/logout
+- POST `/auth/logout`
 
 ### Watchlist
 - GET `/watchlist`
