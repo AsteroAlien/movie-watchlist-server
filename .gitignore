@@ -19,4 +19,4 @@ Thumbs.db
 /dist
 /build
 
-./src/prisma/seed.js
+./prisma/seed.js

@@ -30,9 +30,9 @@ app.use("/users", userRoutes)
 app.use("/movies", movieRoutes)
 app.use("/watchlist", watchlistRoutes)
 
-const PORT = 5003;
+const PORT = process.env.PORT || 5003;
 const server = app.listen(PORT, () => {
-    console.log(`Server started on port: ${PORT}`)
+    console.log(`Server started on port: ${PORT}`);
 });
 
 //Handle unhandled promise rejections (e.g. database connection errors);
