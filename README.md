@@ -35,20 +35,20 @@ The architecture is modular, scalable, and suitable for deployment in modern clo
 
 ## 📁 Project Structure
 movie-watchlist-server/
-├── prisma/
-│ ├── schema.prisma
-│ └── migrations/
-├── src/
-│ ├── controllers/
-│ ├── routes/
-│ ├── middlewares/
-│ ├── validators/
-│ ├── utils/
-│ └── server.js
-├── prisma.config.ts
-├── .env
-├── package.json
-└── pnpm-lock.yaml
+-├── prisma/
+-│ ├── schema.prisma
+-│ └── migrations/
+-├── src/
+-│ ├── controllers/
+-│ ├── routes/
+-│ ├── middlewares/
+-│ ├── validators/
+-│ ├── utils/
+-│ └── server.js
+-├── prisma.config.ts
+-├── .env
+-├── package.json
+-└── pnpm-lock.yaml
 
 ---
 
@@ -56,11 +56,11 @@ movie-watchlist-server/
 
 Create a `.env` file in the root directory:
 
-DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
-JWT_SECRET="your-secret-key"
-JWT_EXPIRES_IN="24h"
-NODE_ENV="development"
-PORT=5000
+- DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE"
+- JWT_SECRET="your-secret-key"
+- JWT_EXPIRES_IN="24h"
+- NODE_ENV="development"
+- PORT=5000
 
 ---
 
