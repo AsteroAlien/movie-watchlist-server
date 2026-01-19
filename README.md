@@ -34,21 +34,22 @@ The architecture is modular, scalable, and suitable for deployment in modern clo
 ---
 
 ## 📁 Project Structure
-movie-watchlist-server/
--├── prisma/
--│ ├── schema.prisma
--│ └── migrations/
--├── src/
--│ ├── controllers/
--│ ├── routes/
--│ ├── middlewares/
--│ ├── validators/
--│ ├── utils/
--│ └── server.js
--├── prisma.config.ts
--├── .env
--├── package.json
--└── pnpm-lock.yaml
+movie-watchlist-server
+
+- ├── prisma/
+- │ ├── schema.prisma
+- │ └── migrations/
+- ├── src/
+- │ ├── controllers/
+- │ ├── routes/
+- │ ├── middlewares/
+- │ ├── validators/
+- │ ├── utils/
+- │ └── server.js
+- ├── prisma.config.ts
+- ├── .env
+- ├── package.json
+- └── pnpm-lock.yaml
 
 ---
 
