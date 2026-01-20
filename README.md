@@ -29,6 +29,7 @@ The architecture is modular, scalable, and suitable for deployment in modern clo
 - JSON Web Tokens (JWT)
 - bcrypt
 - Zod
+- Vitest
 - pnpm
 
 ---
