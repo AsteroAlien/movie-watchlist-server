@@ -1,0 +1,24 @@
+# Node modules and lock files
+node_modules
+npm-debug.log
+pnpm-lock.yaml
+
+# Git and editor files
+.git
+.gitignore
+
+# Tests and diagrams
+tests
+src/diagrams
+
+# Documentation (optional)
+*.md
+
+# Dockerfile (optional)
+Dockerfile
+
+# Prisma migrations
+prisma/migrations
+
+# Local environment files (if present)
+.env
