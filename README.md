@@ -20,6 +20,7 @@ The architecture is modular, scalable, and suitable for deployment in modern clo
 
 ---
 
+
 ## 🧱 Tech Stack
 
 - Node.js
@@ -29,9 +30,14 @@ The architecture is modular, scalable, and suitable for deployment in modern clo
 - JSON Web Tokens (JWT)
 - bcrypt
 - Zod
-- Vitest
-- pnpm
+- Vitest (for testing)
+- pnpm (as package manager)
+- Docker (for containerization)
 
+> **Note:**
+> - This project uses `pnpm` as the package manager for faster and more efficient dependency management.
+> - Testing is done with `Vitest`.
+> - If you wish to run the server in a containerized environment, a `Dockerfile` is provided.
 ---
 
 ## 📁 Project Structure
@@ -49,6 +55,7 @@ movie-watchlist-server
 - │ └── server.js
 - ├── prisma.config.ts
 - ├── .env
+- ├── Dockerfile 
 - ├── package.json
 - └── pnpm-lock.yaml
 
@@ -106,6 +113,27 @@ All watchlist routes require authentication.
 - GET `/watchlist`
 - POST `/watchlist`
 - PUT `/watchlist/:id`
+- DELETE `/watchlist/:id`
+
+### User 
+- GET `/user`
+
+### Movie
+- GET `/movie`
+
+### Home
+- GET `/home`
+
+## 🧪 Validation
+
+All incoming requests are validated using Zod to ensure correct data types, required fields, and consistent error handling.
+
+---
+
+## 📄 License
+
+MIT License
+UT `/watchlist/:id`
 - DELETE `/watchlist/:id`
 
 ### User 
